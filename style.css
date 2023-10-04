@@ -1097,7 +1097,7 @@ a {
     margin-top: -1px;
     font-family: "?????-??", Helvetica;
     font-weight: 400;
-    color: #955400;
+    color: #2f80ed;
     font-size: 14px;
     letter-spacing: 0;
     line-height: normal;
@@ -1116,7 +1116,7 @@ a {
     letter-spacing: 0;
     line-height: normal;
 }
-@media screen and (max-width:900px){
+@media screen and (max-width:500px){
     .nav-section{
         display: none;;
     }
@@ -1124,33 +1124,116 @@ a {
         display:none;
     }
     .hero-section{
-     padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+     padding: 5px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
  }
  .hero-section{
     
-    background: none;
-    height: auto;
-    margin-top: 0;
-    margin-bottom: 25px;
+    background: none !important;
+    height: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 25px !important;
 
  }
 
   .element-course-we-offer{
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    white-space: wrap;
-    box-sizing: border-box;
+    padding: 5px !important;
+    display: flex  !important;
+    flex-direction: column  !important;
+    align-items: center  !important;
+    justify-content: center  !important;
+    width: 100%  !important;
+    white-space: wrap  !important;
+    box-sizing: border-box  !important;
   }
-
 }
-
-
+.nav-button-login:hover{
+    opacity:0.8;
+    background-color:blue;
+    cursor: pointer;
+}
+.hero-main-text:hover{
+    opacity:0.8;
+    color:blue !important;
+    cursor: pointer;
+}
+.hero-form-frame-section1-upper:hover{
+    opacity:0.8;
+    color:blue;
+    cursor: pointer;
+}
+.hero-form-frame-section1-lower:hover{
+    opacity:0.8;
+    color:blue;
+    cursor: pointer;
+}
+.hero-form-frame-section2-1:hover{
+    opacity:0.8;
+    cursor: pointer;
+}
+.hero-form-frame-section2-button:hover{
+    opacity:0.8;
+    color:blue;
+    cursor: pointer;
+}
+.frame:hover{
+    opacity:0.2;
+    cursor: pointer;
+}
+.CTA-button:hover{
+    opacity:0.8;
+    background-color: #1c77b0;
+    cursor: pointer;
+}
+.CTA-button1:hover{
+    opacity:0.8;
+    background-color: blue;
+}
+.cardsection:hover{
+    opacity:0.8 !important;
+}
+.accio:hover{
+    cursor: auto;
+   color:#1c77b0 !important;
+}
+.text:hover{
+    cursor: auto;
+    color:#1c77b0 !important;
+}
+.imgline1{
+    animation: move 3s infinite;
+}
+@keyframes move {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(200px); /* Adjust the distance as needed */
+    }
+  }
+.imgline2{
+    animation: move 4s infinite alternate;
+}
+@keyframes move {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(200px); /* Adjust the distance as needed */
+    }
+  }
+  .imgline3{
+    animation: move 5s infinite alternate;
+}
+@keyframes move {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(200px); /* Adjust the distance as needed */
+    }
+  }
